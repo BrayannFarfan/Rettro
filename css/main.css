@@ -184,6 +184,236 @@ box-shadow: 1px 3px 18px -5px rgba(0,0,0,0.52);
     transition: 1s;
     background-color: transparent;
 }
+.autos .nav-link{
+    background-color: #0b0b0b;
+    margin: 3px;
+    color: #fbfbfb;
+}
+.autos{
+    margin-top: 7rem;
+}
+
+.card div span{
+    font-weight: 600;
+}
+.fa-solid{
+    color: #1e1e1f;
+}
+.btn-card:hover .fa-solid{
+    color: rgb(245, 245, 245) !important;
+}
+.icons-card{
+    margin: 15px;
+}
+.btn-card{
+    padding: 10px;
+    border: 1px solid #1e1e1f;
+    border-radius: 5px;
+    color: #333;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: .8rem;
+}
+.btn-card:hover{
+    color: #fff;
+    background-color: #1e1e1f;
+}
+.switch{
+    color: #f7f7f8 !important;
+}
+/* BLOG  */
+.blogTiles {
+    padding-bottom: 50px;
+    background: url("") no-repeat fixed center center;
+    background-size: 100% auto;
+    background-color: #fff;
+  }
+  .blogTiles h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 44px;
+    margin-top: 70px;
+  }
+  .blogTiles h2 span {
+    color: #1e1e1f;
+    font-weight: bold;
+  }
+  .blogTiles .tile {
+    background: #fff;
+    border-radius: 4px;
+    overflow: hidden;
+    height: 400px;
+    margin-bottom: 20px;
+    display: block;
+    color: inherit;
+    text-decoration: none;
+    position: relative;
+  }
+  .blogTiles .tile:hover h3 {
+    color: #1e1e1f;
+  }
+  .blogTiles .tile:hover .tileOverlay {
+    height: 400px;
+    width: 100%;
+    color: #333;
+    background-color: #1e1e1f;
+    position: absolute;
+    top: 0;
+    opacity: 0.95;
+    -webkit-transition: 0.4s ease-out all;
+    -moz-transition: 0.4s ease-out all;
+    -o-transition: 0.4s ease-out all;
+    transition: 0.4s ease-out all;
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s;
+  }
+  .blogTiles .black {
+    background: #1e1e1f;
+  }
+  .blogTiles .tile .tileImageFirst {
+    display: inline-block;
+    width: 50%;
+    overflow: hidden;
+    height: 100%;
+  }
+  .blogTiles .tile .tileImageFirst img {
+    height: 100%;
+    width: auto;
+  }
+  .blogTiles .tile .tileContentFirst {
+    display: inline-block;
+    vertical-align: top;
+    width: 49%;
+    padding: 0 10px;
+  }
+  .blogTiles .tile .tileContentFirst h3 {
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 30px;
+  }
+  .blogTiles .tile .tileContentFirst p {
+    color: #fff;
+    font-size: 16px;
+  }
+  .blogTiles .tile .tileContent {
+    padding: 0 10px;
+  }
+  .blogTiles .tile .tileContent h3 {
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+  .blogTiles .tile .tileImage {
+    overflow: hidden;
+    max-height: 180px;
+  }
+  
+  .tileOverlay {
+    height: 400px;
+    width: 0%;
+    color: #333;
+    background-color: #1e1e1f;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    -webkit-transition: 0.4s ease-out all;
+    -moz-transition: 0.4s ease-out all;
+    -o-transition: 0.4s ease-out all;
+    transition: 0.4s ease-out all;
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s;
+    text-align: center;
+    padding-top: 180px;
+  }
+  .tileOverlay span {
+    text-align: center;
+    max-height: 400px;
+    border: 2px solid #fff;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .blogTiles .tileLast {
+    background: #1e1e1f;
+    height: 400px;
+    width: 100%;
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  .blogTiles .tileLast span {
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 25px;
+    line-height: 26px;
+  }
+  
+  @media (max-width: 768px) {
+    .blogTiles h2 {
+      text-align: center;
+      font-weight: bold;
+      margin-bottom: 30px;
+      font-size: 34px;
+      margin-top: 70px;
+    }
+    .blogTiles .tile {
+      background: #fff;
+      border-radius: 4px;
+      overflow: hidden;
+      height: inherit;
+      margin-bottom: 20px;
+      display: block;
+      color: inherit;
+      text-decoration: none;
+      position: relative;
+    }
+    .blogTiles .tile .tileImageFirst {
+      display: inline-block;
+      width: 100%;
+      overflow: hidden;
+      height: auto;
+    }
+    .blogTiles .tile .tileImageFirst img {
+      height: auto;
+      width: 100%;
+    }
+    .blogTiles .black {
+      background: #fff;
+    }
+    .blogTiles .tile .tileContentFirst {
+      display: inline-block;
+      vertical-align: top;
+      width: 100%;
+      padding: 0 10px;
+    }
+    .blogTiles .tile .tileContentFirst h3 {
+      font-weight: bold;
+      color: #333;
+      text-transform: uppercase;
+      font-size: 20px;
+    }
+    .blogTiles .tile .tileContentFirst p {
+      color: #333;
+      font-size: 14px;
+      font-weight: 400;
+    }
+    .blogTiles .tileLast {
+      background: #1e1e1f;
+      height: 100%;
+      width: 100%;
+      display: inline-block;
+      padding: 20px;
+      text-decoration: none;
+      border-radius: 4px;
+    }
+  }
 /* MEDIA QUERIES */
 @media(max-width:900px){
     .content{
